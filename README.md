@@ -72,23 +72,6 @@ These findings, detailed in the final report, confirm the model's effectiveness 
 
 ---
 
-## File Structure
-```
-.
-├── reports/
-│   ├── Final_Report.pdf
-│   ├── Feature_Engineering_Unsupervised_Modeling.pdf
-│   ├── Data_Cleaning.pdf
-│   └── DQR.pdf
-├── data/
-│   └── NY_property_data.csv        # (Or a note on where to download it)
-├── NY_unsupervised_fraud.ipynb     # The main Jupyter Notebook with the code
-├── requirements.txt                # Required Python libraries
-└── README.md
-```
-
----
-
 ## How to Run
 
 1.  **Clone the repository:**
@@ -96,14 +79,12 @@ These findings, detailed in the final report, confirm the model's effectiveness 
     git clone [https://github.com/your-username/NYC-Property-Tax-Fraud-Detection.git](https://github.com/your-username/NYC-Property-Tax-Fraud-Detection.git)
     cd NYC-Property-Tax-Fraud-Detection
     ```
-2.  **Set up the environment:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Download the data:**
+2.  **Set up a virtual Python environment and install required Python packages. Also setup ipykernel to handle ipynb.** 
+    
+4.  **Download the data:**
     The dataset can be found on the [NYC Open Data portal](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8). Download the CSV and place it in the `data/` directory.
 
-4.  **Run the notebook:**
+5.  **Run the notebook:**
     Launch Jupyter Notebook and open `NY_unsupervised_fraud.ipynb`.
     ```bash
     jupyter notebook
@@ -132,7 +113,3 @@ These findings, detailed in the final report, confirm the model's effectiveness 
     * **Python:** Pandas, NumPy, Scikit-learn
     * **Data Visualization:** Matplotlib, Seaborn
     * **Development Environment:** Jupyter Notebook
-
-* **Communication & Reporting:**
-    * Comprehensive Technical Report Writing
-    * Data Storytelling (through case studies of flagged anomalies)
