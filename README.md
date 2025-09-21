@@ -10,10 +10,10 @@ The methodology employs a robust pipeline of data cleaning, extensive feature en
 
 For a comprehensive understanding of the project's methodology, findings, and technical details, please see the detailed reports included in this repository:
 
-* **[Final Report](./reports/Final_Report.pdf):** A complete summary of the project from data cleaning to the analysis of top anomalies.
-* **[Feature Engineering & Modeling](./reports/Feature_Engineering_Unsupervised_Modeling.pdf):** A technical deep-dive into the construction of the 29 analytical variables and the mathematical basis for the two anomaly detection models.
-* **[Data Cleaning Report](./reports/Data_Cleaning.pdf):** Details the rigorous process of data imputation and the logic for record exclusion.
-* **[Data Quality Report](./reports/DQR.pdf):** An initial exploratory analysis of the raw dataset.
+* **[Final Report](./Final_Report.pdf):** A complete summary of the project from data cleaning to the analysis of top anomalies.
+* **[Feature Engineering & Modeling](./Feature_Engineering_Unsupervised_Modeling.pdf):** A technical deep-dive into the construction of the 29 analytical variables and the mathematical basis for the two anomaly detection models.
+* **[Data Cleaning Report](./Data_Cleaning.pdf):** Details the rigorous process of data imputation and the logic for record exclusion.
+* **[Data Quality Report](./DQR.pdf):** An initial exploratory analysis of the raw dataset.
 
 ---
 
