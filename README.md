@@ -48,9 +48,9 @@ This model identifies points that are far from the center of the data distributi
 2.  **Principal Component Analysis (PCA)** was applied to reduce dimensionality and handle multicollinearity. The first `m` components explaining ~90% of the variance were retained.
 3.  The resulting principal components were standardized again to ensure each component was weighted equally.
 4.  The anomaly score, $D_i$, was calculated as the **Minkowski distance** ($p=2$, Euclidean) of each property's transformed feature vector from the origin. This score is mathematically equivalent to the Mahalanobis distance if all components are used.
-    $$
+    ```math
     D_{i} = \sqrt{z_{i1}^{2} + z_{i2}^{2} + \dots + z_{im}^{2}}
-    $$
+    ```
 
 #### Model 2: Autoencoder Neural Network
 This model uses a neural network to learn a compressed representation of "normal" data and flags anomalies as those with high reconstruction error.
